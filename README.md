@@ -11,7 +11,7 @@ One keyboard, mouse, clipboard and screen for a Windows PC and a Mac, over your 
 ## Features
 
 - **Cross at the screen edge**: push the pointer through the edge that faces the Mac, and the PC's mouse and keyboard control the Mac. Push back to return. The Mac's trackpad and keyboard can control the PC the same way. `Ctrl+Alt+M` switches at once.
-- **The Mac's screen on the PC**: up to 60 fps with hardware encoding, with low delay. Control it with the PC's mouse and keyboard, in a window or in full screen (`F11`), where a menu can be dragged to any edge and pinned or hidden. Every display can have its own window.
+- **The Mac's screen on the PC**: up to 60 fps with hardware encoding, with low delay. Control it with the PC's mouse and keyboard, in a window or in full screen (`F11`), where a menu can be dragged to any edge and pinned or hidden. Every display can have its own window; windows stick together, move as one and go full screen together.
 - **Several Macs at once**: connect as many as you like and put each at its own edge. Push towards one to control it; `Ctrl+Alt+M` goes through them all.
 - **A virtual display**: use the Mac's own screen, a virtual display or both, and drag it to where it should be.
 - **Lid closed**: a MacBook stays reachable with its lid shut, showing a virtual display. Needs an administrator password once.
@@ -44,7 +44,7 @@ The app is signed with the developer's own certificate and is not notarized by A
 
 1. Open ConnectMac on both, on the same network. A direct network cable works as well.
 2. Choose the Mac in the PC's window and check that both show the same six digits. This is only needed once. Add as many Macs as you like the same way.
-3. Drag the Mac's tile to where it stands next to your monitors.
+3. In the picture on the home page, drag the Mac to where it stands next to your monitors, and click the screens you want to see.
 
 ### Lid closed (MacBook, experimental)
 
