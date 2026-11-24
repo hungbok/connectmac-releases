@@ -11,7 +11,10 @@ One keyboard, mouse, clipboard and screen for a Windows PC and a Mac, over your 
 ## Features
 
 - **Cross at the screen edge**: push the pointer through the edge that faces the Mac, and the PC's mouse and keyboard control the Mac. Push back to return. The Mac's trackpad and keyboard can control the PC the same way. `Ctrl+Alt+M` switches at once.
-- **The Mac's screen on the PC**: up to 60 fps with hardware encoding, with low delay. Control it with the PC's mouse and keyboard, in a window or in full screen (`F11`).
+- **The Mac's screen on the PC**: up to 60 fps with hardware encoding, with low delay. Control it with the PC's mouse and keyboard, in a window or in full screen (`F11`), where a menu can be dragged to any edge and pinned or hidden. Every display can have its own window.
+- **Several Macs at once**: connect as many as you like and put each at its own edge. Push towards one to control it; `Ctrl+Alt+M` goes through them all.
+- **A virtual display**: use the Mac's own screen, a virtual display or both, and drag it to where it should be.
+- **Lid closed**: a MacBook stays reachable with its lid shut, showing a virtual display. Needs an administrator password once.
 - **Shared clipboard**: copy on one, paste on the other. Text, pictures, files and folders.
 - **Files**: drag them to the screen edge, into the window, or use Explorer's "Send to". On the Mac, drop them on the menu bar icon.
 - **Keys that fit**: `Ctrl` works as `⌘`, so shortcuts stay the same; `Alt+Tab` switches Mac apps. The physical Mac layout is available too.
@@ -40,8 +43,12 @@ The app is signed with the developer's own certificate and is not notarized by A
 ### Connect
 
 1. Open ConnectMac on both, on the same network. A direct network cable works as well.
-2. Choose the Mac in the PC's window and check that both show the same six digits. This is only needed once.
+2. Choose the Mac in the PC's window and check that both show the same six digits. This is only needed once. Add as many Macs as you like the same way.
 3. Drag the Mac's tile to where it stands next to your monitors.
+
+### Lid closed (MacBook, experimental)
+
+Turn on **Keep working with the lid closed** in the Mac's menu and enter your administrator password once. With the lid shut, the Mac draws on a virtual display that the PC shows. It stays awake while it is on the mains, or while a PC is connected and the battery is above 15%; then it sleeps as usual. While it stays awake it does not go to sleep at all, with the lid open either. A locked screen may not be visible, so turn off the password on display sleep in System Settings › Lock Screen. To remove the helper: `sudo bash "/Library/Application Support/ConnectMac/lid-helper.sh" --uninstall`.
 
 ## Updates
 
